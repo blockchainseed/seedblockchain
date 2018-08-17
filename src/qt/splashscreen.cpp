@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2018 LightPayCoin developers
 // Copyright (c) 2018 The SeedBlockChain developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -27,8 +28,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
 {
     // set reference point, paddings
     int paddingLeft = 14;
-    int paddingTop = 465;
-    int titleVersionVSpace = 17;
+    int paddingTop = 445;
+    int titleVersionVSpace = 15;
     int titleCopyrightVSpace = 32;
 
     float fontFactor = 1.0;
@@ -39,6 +40,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     QString copyrightTextBtc = QChar(0xA9) + QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
     QString copyrightTextDash = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Dash Core developers"));
     QString copyrightTextPivx = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The PIVX Core developers"));
+    QString copyrightTextLpc = QChar(0xA9) + QString(tr(" 2018 LightPayCoin developers"));
 	QString copyrightTextSdb = QChar(0xA9) + QString(tr(" 2018 The Seed Blockchain Core developers"));
     QString titleAddText = networkStyle->getTitleAddText();
 
@@ -72,7 +74,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace, copyrightTextBtc);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 12, copyrightTextDash);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 24, copyrightTextPivx);
-	pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 36, copyrightTextSdb);
+    pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 36, copyrightTextLpc);
+	pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 48, copyrightTextSdb);
 
     // draw additional text if special network
     if (!titleAddText.isEmpty()) {
