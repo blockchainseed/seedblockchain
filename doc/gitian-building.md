@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a gitian build of SeedBlockChain using a Debian VM or physical system.*
+*Setup instructions for a gitian build of Seed Blockchain using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the SeedBlockChain
+Gitian is the deterministic build process that is used to build the Seed Blockchain
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to seedblockchain-crypto.com.
+to https://github.com/blockchainseed/seedblockchain.
 
 More independent gitian builders are needed, which is why I wrote this
 guide. It is preferred to follow these steps yourself instead of using someone else's
@@ -326,10 +326,10 @@ under 'Fetch and build inputs' to install sources which require manual intervent
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
 
-Building SeedBlockChain
+Building Seed Blockchain
 ----------------
 
-To build SeedBlockChain (for Linux, OSX and Windows) just follow the steps under 'perform
+To build Seed Blockchain (for Linux, OSX and Windows) just follow the steps under 'perform
 gitian builds' in [doc/release-process.md](release-process.md) in the seedblockchain repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[seedblockchain/gitian.sigs](https://github.com/seedblockchain-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
+[seedblockchain/gitian.sigs](https://github.com/blockchainseed/seedblockchain/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.
