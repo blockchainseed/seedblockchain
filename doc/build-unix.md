@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build SeedBlockChain in Unix.
+Some notes on how to build Seed Blockchain in Unix.
 
 Note
 ---------------------
@@ -166,7 +166,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your SeedBlockChain installation more secure by making certain attacks impossible to
+To help make your Seed Blockchain installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
