@@ -4,7 +4,7 @@
 There are many ways to setup a wallet to support start-many. This guide will walk through two of them.
 
 1. [Importing an existing wallet (recommended if you are consolidating wallets).](#option1)
-2. [Sending 10,000 SeedBlockChain to new wallet addresses.](#option2)
+2. [Sending 10,000 Seed Blockchain to new wallet addresses.](#option2)
 
 ## <a name="option1"></a>Option 1. Importing an existing wallet
 
@@ -48,7 +48,7 @@ The wallet will re-scan and you will see your available balance increase by the 
 2. Click the Receive tab.
 3. Fill in the form to request a payment.
     * Label: mn01
-    * Amount: 1000 (optional)
+    * Amount: 10,000 (optional)
     * Click *Request payment*
 5. Click the *Copy Address* button
 
@@ -56,9 +56,9 @@ Create a new wallet address for each MasterNode.
 
 Close your QT Wallet.
 
-### Send 10,000 SeedBlockChain to New Addresses
+### Send 10,000 Seed Blockchain to New Addresses
 
-Just like setting up a standard MN. Send exactly 10,000 SeedBlockChain to each new address created above.
+Just like setting up a standard MN. Send exactly 10,000 Seed Blockchain to each new address created above.
 
 ### Create New Masternode Private Keys
 
@@ -78,11 +78,11 @@ Remember... this is local. Make sure your QT is not running.
 
 Create the masternode.conf file in the same directory as your wallet.dat.
 
-Copy the masternode private key and correspondig collateral output transaction that holds the 1K SeedBlockChain.
+Copy the masternode private key and correspondig collateral output transaction that holds the 10,000 Seed Blockchain.
 
 The masternode private key may be an existing key from [Option 1](#option1), or a newly generated key from [Option 2](#option2). 
 
-*Please note, the masternode priviate key is not the same as a wallet private key. Never put your wallet private key in the masternode.conf file. That is equivalent to putting your 10,000 SeedBlockChain on the remote server and defeats the purpose of a hot/cold setup.*
+*Please note, the masternode priviate key is not the same as a wallet private key. Never put your wallet private key in the masternode.conf file. That is equivalent to putting your 10,000 Seed Blockchain on the remote server and defeats the purpose of a hot/cold setup.*
 
 ### Get the collateral output
 
@@ -92,10 +92,10 @@ Issue the following:
 
 ```masternode outputs```
 
-Make note of the hash (which is your collaterla_output) and index.
+Make note of the hash (which is your collateral_output) and index.
 
 ### Enter your MasterNode details into your masternode.conf file
-[From the seedblockchain github repo](https://github.com/seedblockchain-crypto/seedblockchain/blob/master/doc/masternode_conf.md)
+[From the seedblockchain github repo](https://github.com/blockchainseed/seedblockchain/tree/master/doc/masternode_conf.md)
 
 The new masternode.conf format consists of a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index, donation address and donation percentage (the latter two are optional and should be in format "address:percentage").
 
@@ -137,7 +137,7 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```seedblockchaind getinfo```
 
-And compare with the official explorer at http://seedblockchainexplorer.coin-server.com <or> dnet.presstab.pw
+And compare with the official explorer at http://66.42.53.154:81/ <or> dnet.presstab.pw
 
 ### Local
 
