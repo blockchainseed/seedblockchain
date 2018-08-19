@@ -1,1 +1,1 @@
-SeedBlockChain (fork of PIVX) integration/staging repository
+Seed Blockchain (fork of PIVX) integration/staging repository
