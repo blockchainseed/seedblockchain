@@ -1,18 +1,18 @@
-SeedBlockChain Core version 2.3.1 is now available from:
+SeedBlockChain Core version 1.0.0 is now available from:
 
-  <https://github.com/seedblockchain-project/seedblockchain/releases>
+  <https://github.com/blockchainseed/seedblockchain/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/seedblockchain-project/seedblockchain/issues>
+  <https://github.com/blockchainseed/seedblockchain/issues>
 
 Compatibility
 ==============
 
-SeedBlockChain Core is extensively tested on multiple operating systems using
+Seed Blockchain Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -20,7 +20,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-SeedBlockChain Core should also work on most other Unix-like systems but is not
+Seed Blockchain Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes
@@ -201,8 +201,7 @@ Credits
 =======
 
 Thanks to everyone who directly contributed to this release:
-- Fuzzbawls
-- Mrs-X
-- amirabrams
+- SeedBlockchain
+- CryptoSeed
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/seedblockchain-project-translations/).
