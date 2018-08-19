@@ -1,13 +1,13 @@
-SeedBlockChain Core
+Seed Blockchain Core
 =====================
 
 Setup
 ---------------------
-[SeedBlockChain Core](http://seedblockchain.org/wallet) is the original SeedBlockChain client and it builds the backbone of the network. However, it downloads and stores the entire history of SeedBlockChain transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Seed Blockchain Core](https://github.com/blockchainseed/seedblockchain/releases) is the original Seed Blockchain client and it builds the backbone of the network. However, it downloads and stores the entire history of Seed Blockchain transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run SeedBlockChain on your native platform.
+The following are some helpful notes on how to run Seed Blockchain on your native platform.
 
 ### Unix
 
@@ -26,14 +26,12 @@ Drag SeedBlockChain-Qt to your applications folder, and then run SeedBlockChain-
 
 ### Need Help?
 
-* See the documentation at the [SeedBlockChain Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
-for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [SeedBlockChain Forum](http://forum.seedblockchain.org/).
-* Join one of our Slack groups [SeedBlockChain Slack Groups](https://seedblockchain.org/slack-logins/).
+* See the documentation at the [Seed Blockchain Wiki](https://github.com/blockchainseed/seedblockchain/wiki/Masternode-Setup-Guide) for help and more information.
+* Ask for help on [Discord](https://discord.gg/x4xW4uz).
 
 Building
 ---------------------
-The following are developer notes on how to build SeedBlockChain on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Seed Blockchain on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +39,7 @@ The following are developer notes on how to build SeedBlockChain on your native 
 
 Development
 ---------------------
-The SeedBlockChain repo's [root README](https://github.com/SeedBlockChain-Project/SeedBlockChain/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Seed Blockchain repo's [root README](https://github.com/blockchainseed/seedblockchain/blob/master/doc/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +53,7 @@ The SeedBlockChain repo's [root README](https://github.com/SeedBlockChain-Projec
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [SeedBlockChain](http://forum.seedblockchain.org/) forum.
-* Join the [SeedBlockChain-Dev](https://seedblockchain-dev.slack.com/) Slack group ([Sign-Up](https://seedblockchain-dev.herokuapp.com/)).
+* Discuss on the [Discord](https://discord.gg/x4xW4uz).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
@@ -67,5 +64,4 @@ The SeedBlockChain repo's [root README](https://github.com/SeedBlockChain-Projec
 License
 ---------------------
 Distributed under the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
-This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
-cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
